@@ -1,0 +1,48 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "api",
+  "main": "index.js",
+  "dependencies": {
+    "args": "^5.0.1",
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^7.0.1",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-xml-body": "^2.1.0",
+    "log4js": "^4.1.0",
+    "md5": "^2.2.1",
+    "moment": "^2.24.0",
+    "node-args": "^2.1.8",
+    "nodemon": "^1.18.11",
+    "path": "^0.12.7",
+    "pg": "^7.9.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^5.2.15",
+    "superagent": "^5.0.2",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "set NODE_ENV=development&&nodemon start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YUAN21/QingShangSociety.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "YUAN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YUAN21/QingShangSociety/issues"
+  },
+  "homepage": "https://github.com/YUAN21/QingShangSociety#readme"
+}
