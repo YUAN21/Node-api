@@ -1,5 +1,5 @@
 # Node-api
-基于node、koa2、sequelize搭建的后端架构（说架构是吹牛~）
+基于node、koa2、sequelize搭建的后端API框架（说框架是吹牛~）
 
 ## 首次启动
 ```
